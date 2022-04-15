@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <title>Document</title>
+</head>
+<body id="u">
+    
+    <section>
+        <img src="bg.jpg" id="bg" class="img-fluid" alt="">
+        
+        <img src="moon.png" id="moon" class="moon img-fluid" alt="">
+        <img src="mountain.png" id="mountain" class="mountain img-fluid" alt="">
+        
+        <!-- <img src="moon2.png" style="height: 50%;width: 50%; position: ;"  alt=""> -->
+        <img src="road.png" id="road" class="road img-fluid" alt="">
+
+        <h2 id="text" > </h2>
+        
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var value = window.scrollY;
+            document.getElementById("bg").style.top = value * 0.5  + 'px';   
+            document.getElementById("moon").style.left = -value * 0.5  + 'px';   
+            document.getElementById("mountain").style.top =-value * 0.15  + 'px'; 
+            document.getElementById("road").style.top = value * 0.15 + 'px'; 
+            document.getElementById("heading").style.bottom = value * 1 + 'px'; 
+            // window.alert('jjshga');
+//   document.getElementById('u').innerHTML = window.pageYOffset + 'px';
+});
+
+
+        // window.addEventListener("scroll", myFunction);
+
+// function myFunction() {
+//   document.getElementById("demo").innerHTML = "You scrolled in div.";
+//   document.getElementById("moon").style.left = "100px";
+// }
+
+//         let bg = document.getElementById("bg");
+//         let moon = document.getElementById("moon");
+//         let mountain = document.getElementById("mountain");
+//         let road = document.getElementById("road");
+//         let text = document.grtElementById("text");
+        
+
+//         window.addEventListener('scroll',function(){
+//             var value = window.scrollY;
+
+//             bg.style.top = value * 0.5  + 'px';   
+//             moon.style.left = -value * 0.5  + 'px'; 
+//             mountain.style.top = -value * 0.15  + 'px'; 
+//             road.style.top = value * 0.15 + 'px'; 
+//             text.style.top = value * 1 + 'px'; 
+//         })
+
+
+
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+   <div class="row">
+    <img src="ghost.gif" style="width: 30%;" alt="">
+    <h2 id="heading"> Halloween Night</h2>
+    <img src="ghost.gif" style="width: 30%;" alt="">
+   </div>
+
+    <p style="background-image: url('bat.gif');" id="paragraph">It was a true Halloween night. The full moon was shining through the bare branches casting eerie shadows on our path as we walked. A cool breeze was blowing sending leaves dancing noisily across the forest floor. I remember thinking to myself that this night was truly the kind that you imagine when you listen to a scary tale. Holding tightly to the person next to you, just like I was holding Scott as we walked that evening.
+
+        The path we walked on would take us past the cemetery and end at the crest above Devils Den. We chose this path because of it being the night it was. We were feeling young at heart and out for an imaginary adventure. An adventure that led us into the heart of the town´s legendary witches circle.
+
+        As we walked past the cemetery a group of mischievous youths came jumping out from behind some tombstones and trees. My heart was in my throat and I felt Scott give a startled jump. Oi, what the hell do you think you´re doing! shouted Scott. One look sent them laughing as they ran to find their next victims. My expression was still a look of terror and when Scott turned to see if I was all right, he started laughing too. Then being the good sport that I am, sent him stumbling backwards over a log into a big pile of leaves from a nearby oak tree. Then quickly turning I ran for the shelter of the forest where I hid hoping to do some scaring of my own.</p>
+
+</body>
+</html>
